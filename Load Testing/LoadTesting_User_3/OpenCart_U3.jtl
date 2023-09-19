@@ -1,0 +1,19 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1695138352431,4361,https://www.opencart.com/index.php?route=common/home,200,OK,Thread Group 1-1,text,true,,24476,525,2,2,https://www.opencart.com/index.php?route=common%2Fhome,4240,0,2663
+1695138356806,2009,https://www.opencart.com/index.php?route=cms/feature,200,OK,Thread Group 1-1,text,true,,32114,585,2,2,https://www.opencart.com/index.php?route=cms%2Ffeature,390,0,0
+1695138358817,1522,https://www.opencart.com/index.php?route=marketplace/extension,200,OK,Thread Group 1-1,text,true,,62682,595,3,3,https://www.opencart.com/index.php?route=marketplace%2Fextension,822,0,0
+1695138355720,4830,https://www.opencart.com/index.php?route=common/home,200,OK,Thread Group 1-2,text,true,,24468,525,3,3,https://www.opencart.com/index.php?route=common%2Fhome,4595,0,2191
+1695138360341,552,https://www.opencart.com/index.php?route=cms/company,200,OK,Thread Group 1-1,text,true,,25312,585,3,3,https://www.opencart.com/index.php?route=cms%2Fcompany,551,0,0
+1695138359040,2285,https://www.opencart.com/index.php?route=common/home,200,OK,Thread Group 1-3,text,true,,24468,525,3,3,https://www.opencart.com/index.php?route=common%2Fhome,1885,0,201
+1695138360553,1119,https://www.opencart.com/index.php?route=cms/feature,200,OK,Thread Group 1-2,text,true,,32107,585,3,3,https://www.opencart.com/index.php?route=cms%2Ffeature,626,0,0
+1695138360896,2222,https://www.opencart.com/index.php?route=account/login,200,OK,Thread Group 1-1,text,true,,12564,587,3,3,https://www.opencart.com/index.php?route=account%2Flogin,385,0,0
+1695138352385,10666,Test,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-1,,true,,157148,2877,3,3,null,6388,67,2663
+1695138361328,1814,https://www.opencart.com/index.php?route=cms/feature,200,OK,Thread Group 1-3,text,true,,32107,585,2,2,https://www.opencart.com/index.php?route=cms%2Ffeature,622,0,0
+1695138361674,1693,https://www.opencart.com/index.php?route=marketplace/extension,200,OK,Thread Group 1-2,text,true,,62672,595,2,2,https://www.opencart.com/index.php?route=marketplace%2Fextension,1161,0,0
+1695138363370,786,https://www.opencart.com/index.php?route=cms/company,200,OK,Thread Group 1-2,text,true,,25305,585,2,2,https://www.opencart.com/index.php?route=cms%2Fcompany,626,0,0
+1695138364158,540,https://www.opencart.com/index.php?route=account/login,200,OK,Thread Group 1-2,text,true,,12569,587,2,2,https://www.opencart.com/index.php?route=account%2Flogin,539,0,0
+1695138355716,8968,Test,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-2,,true,,157121,2877,2,2,null,7547,16,2191
+1695138363144,2952,https://www.opencart.com/index.php?route=marketplace/extension,200,OK,Thread Group 1-3,text,true,,62672,595,1,1,https://www.opencart.com/index.php?route=marketplace%2Fextension,699,0,0
+1695138366099,3192,https://www.opencart.com/index.php?route=cms/company,200,OK,Thread Group 1-3,text,true,,25312,585,1,1,https://www.opencart.com/index.php?route=cms%2Fcompany,1199,0,0
+1695138369291,1104,https://www.opencart.com/index.php?route=account/login,200,OK,Thread Group 1-3,text,true,,12564,587,1,1,https://www.opencart.com/index.php?route=account%2Flogin,1011,0,0
+1695138359038,11347,Test,200,"Number of samples in transaction : 5, number of failing samples : 0",Thread Group 1-3,,true,,157123,2877,1,1,null,5416,12,201
