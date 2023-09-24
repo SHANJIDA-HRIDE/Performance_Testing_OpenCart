@@ -79,6 +79,19 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary depending on th
 | 5  | 1  |  17.6  | 4%      | 1060  |
 | 6  | 1  |  20    | 26%     | 1272  |
 
+**Number of Threads 1-4; Ramp-Up Period 10s**
+ |  Errors 1-4 Threads
+:-------------------------:
+![a](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/606afc03-71c0-4b46-9da2-76d9b82b6b92)
+
+**Number of Threads 5 & 6; Ramp-Up Period 10s**
+
+Errors 5 Threads            |  Errors 6 Threads
+:-------------------------:|:-------------------------:
+![a](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/e2f41bce-34af-47ae-b27b-f6742a938244) |  ![b](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/0c5ced96-a432-43c4-8de0-9f08e11e95a9)
+
+
+
 ## Summary Load Testing
 - While executing 3 concurrent requests, 848 requests got connection timeout and the error rate is 0%.
 - Server can handle almost concurrent 900 API calls with almost zero (0) error rate.
