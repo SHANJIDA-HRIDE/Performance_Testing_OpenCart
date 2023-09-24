@@ -85,10 +85,20 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary depending on th
 
 ## Stress Testing
 - Stress testing is a type of performance testing that evaluates how a system or application behaves and performs under extreme conditions or at the limits of its intended capacity. The goal of stress testing is to uncover the system's vulnerabilities, identify performance bottlenecks, determine the system's breaking point, and understand its behavior in stressful scenarios.
+
 **Number of Threads 7 ; Ramp-Up Period 10s**
 
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
 ![a](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/e5072515-33e3-472f-8c3d-b005b7284672) |  ![b](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/e931ab40-e6a5-4121-abbe-afc24693e931)
 
+**Number of Threads 8 ; Ramp-Up Period 10s**
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![a](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/18de8016-5291-4edd-bc21-2611e9e9d3b3) |  ![b](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/8bca7a38-d0c4-4714-86fe-f65c13ac8659)
+
+**Number of Threads 9 ; Ramp-Up Period 10s**
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![a](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/86da5e01-8e85-40af-9de9-f8199552875a) |  ![b](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/3e6149e1-4ad0-474a-8af6-813c5dc54704)
 
