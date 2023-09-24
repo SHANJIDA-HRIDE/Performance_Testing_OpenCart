@@ -3,7 +3,7 @@
 - [Introduction](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#introduction)
 - [Install](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#install)
 - [Prerequisites](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Prerequisites)
-- [Elements of a minimal test plan](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Elements of a minimal test plan)
+- [Elements of a minimal test plan](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Elements_of_a_minimal_test_plan)
 - [Test Plan](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#install)
 - [Load Testing Report](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#install)
 - [Summary Load Testing](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#install)
