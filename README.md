@@ -4,9 +4,9 @@
 - [Install](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#install)
 - [Prerequisites](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Prerequisites)
 - [Elements of a minimal test plan](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Elements-of-a-minimal-test-plan)
-- [Test Plan](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#install)
-- [Load Testing Report](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#install)
-- [Summary Load Testing](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#install)
+- [Test Plan](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Test-Plan)
+- [Load Testing Report](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Load-Testing-Report)
+- [Summary Load Testing](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Summary-Load-Testing)
 ## Introduction
 - This report provides an overview of the load testing, stress testing, and spike testing conducted on the Opencart website. The objective of this testing was to evaluate the system's performance under various load conditions and ensure it meets the specified requirements.
 ## Install
@@ -82,3 +82,13 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary depending on th
 ## Summary Load Testing
 - While executing 3 concurrent requests, 848 requests got connection timeout and the error rate is 0%.
 - Server can handle almost concurrent 900 API calls with almost zero (0) error rate.
+
+## Stress Testing
+- Stress testing is a type of performance testing that evaluates how a system or application behaves and performs under extreme conditions or at the limits of its intended capacity. The goal of stress testing is to uncover the system's vulnerabilities, identify performance bottlenecks, determine the system's breaking point, and understand its behavior in stressful scenarios.
+**Number of Threads 7 ; Ramp-Up Period 10s**
+
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![a](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/e5072515-33e3-472f-8c3d-b005b7284672) |  ![b](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/e931ab40-e6a5-4121-abbe-afc24693e931)
+
+
