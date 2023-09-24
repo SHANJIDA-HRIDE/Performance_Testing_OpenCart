@@ -7,6 +7,9 @@
 - [Test Plan](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Test-Plan)
 - [Load Testing Report](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Load-Testing-Report)
 - [Summary Load Testing](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Summary-Load-Testing)
+- [Stress Testing](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Stress-Testing)
+- [Spike Testing](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Spike-Testing)
+- [Conclusion](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart#Conclusion)
 ## Introduction
 - This report provides an overview of the load testing, stress testing, and spike testing conducted on the Opencart website. The objective of this testing was to evaluate the system's performance under various load conditions and ensure it meets the specified requirements.
 ## Install
@@ -114,4 +117,40 @@ Requests Summary             |  Errors
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
 ![a](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/86da5e01-8e85-40af-9de9-f8199552875a) |  ![b](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/3e6149e1-4ad0-474a-8af6-813c5dc54704)
+
+# Spike Testing
+
+Spike testing is a type of performance testing where the demand for an application is suddenly and drastically increased or decreased. Spike testing's objective is to ascertain how a software program will behave under highly variable traffic conditions.
+
+**Number of Threads 15 ; Ramp-Up Period 10s**
+   
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![s](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/6f55932e-2ead-4b26-9bc2-31159a69267d) | ![p](https://github.com/SHANJIDA-HRIDE/Performance_Testing_OpenCart/assets/62147630/17a65faf-9ce6-469b-b443-3b4b9a7ac34c)
+
+## Conclusion
+The performance testing conducted on the Opencart website provided valuable insights into the system's behavior and performance under various conditions. Here is a summary of the overall performance testing outcome and the insights gained:
+
+### Summary of Performance Testing Outcome:
+- The application demonstrated good performance under normal and expected load conditions.
+- Response times were generally within acceptable ranges, meeting user expectations.
+- Throughput was satisfactory, handling the expected transaction volume effectively.
+- Error rates were low, indicating good application stability and robustness.
+### Insights and Observations:
+- Scalability Potential: The application exhibited potential for scalability, showing the ability to handle increased load without a significant degradation in performance.
+
+- Database Optimization Opportunities: Analysis revealed areas for optimizing database queries and improving indexing strategies to enhance response times, especially as the user base grows.
+
+- Caching Improvements: Implementing a robust caching mechanism could further optimize response times and reduce the load on the application server.
+
+- Content Delivery Optimization: Leveraging a Content Delivery Network (CDN) for static assets can significantly improve load times for users across different geographic locations.
+
+- Resource Utilization: Monitoring resource utilization during tests highlighted areas where resource allocation could be optimized for better efficiency.
+
+### Recommendations for Improvement:
+- Implement a caching strategy to reduce database load and improve response times.
+- Conduct a comprehensive database performance tuning exercise to optimize queries and indexing.
+- Explore CDN integration to enhance content delivery and reduce latency for users.
+- Continuously monitor and optimize resource utilization for optimal system performance.
+- The insights gained from this performance testing will serve as a roadmap for optimizing the application's performance, ensuring a seamless and responsive user experience even during peak load times.
 
