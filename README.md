@@ -96,7 +96,7 @@ Errors 5 Threads            |  Errors 6 Threads
 
 
 ## Summary Load Testing
-- While executing 3 concurrent requests, 848 requests got connection timeout and the error rate is 0%.
+- While executing 4 concurrent requests, 848 requests got connection timeout and the error rate is 0%.
 - Server can handle almost concurrent 900 API calls with almost zero (0) error rate.
 
 ## Stress Testing
